@@ -3,53 +3,50 @@
   "theme": "palm",
   "name": "Agrokora",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1d3831",
+    "light": "#1d3831",
+    "dark": "#f9f4fe"
   },
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
-        "groups": [
+        "languages": [
           {
-            "group": "Get started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "language": "en",
+            "groups": [
+              {
+                "group": "Get started",
+                "pages": [
+                  "en/welcome",
+                  "en/quickstart"
+                ]
+              },
+              {
+                "group": "Essentials",
+                "pages": [
+                  "en/essentials/markdown"
+                ]
+              }
             ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+            "language": "es",
+            "groups": [
+              {
+                "group": "Empieza a medir",
+                "pages": [
+                  "es/index",
+                  "es/quickstart"
+                ]
+              },
+              {
+                "group": "Essentials",
+                "pages": [
+                  "es/essentials/markdown"
+                ]
+              }
             ]
           }
         ]
@@ -58,14 +55,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Order sensor",
+          "href": "https://www.agrokora.com/en/get-started",
+          "icon": "signal-messenger"
         },
         {
           "anchor": "Blog",
@@ -82,13 +74,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Contact us",
         "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Sign in",
       "href": "https://dashboard.mintlify.com"
     }
   },
