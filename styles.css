@@ -6,40 +6,29 @@
     height: 3.75rem;
 }
 
-// Contact Us button styling
-.flex.space-x-6.items-center {
-  // Text styling
-  color: #FFFFFF; // AAA compliant white text
-  
-  // Hover state
-  &:hover {
-    background-color: lighten(#1c362f, 10%);
-    color: #E6F3EB; // Light mint green for hover text
-  }
+// Theme colors
+$primary: #1c362f;
+$primary-light: lighten($primary, 10%);
+$primary-dark: darken($primary, 10%);
+$text-on-primary: #FFFFFF;
+$text-hover: #E6F3EB;
+$background-light: #F0F9F4;
 
-  // Focus state for accessibility
-  &:focus {
-    outline: 2px solid #FFFFFF;
-    outline-offset: 2px;
+// Then use these variables in your components
+.flex.items-center {
+  background-color: $primary;
+  color: $text-on-primary;
+  
+  &:hover {
+    background-color: $primary-light;
+    color: $text-hover;
   }
 }
 
-// Navigation tab item styling
 .link.nav-tabs-item {
-  // Active state
-  &.active {
-    color: #1c362f;
-    border-bottom: 2px solid #1c362f;
-  }
+  color: $primary-dark;
   
-  // Custom text-gray-800 override
-  &.text-gray-800 {
-    // Default state
-    color: rgba(255, 255, 255, 0.8); // Light text on dark background
-    
-    // Dark mode
-    &.dark {
-      color: rgba(255, 255, 255, 0.8); // Light text on dark background
-    }
+  &:hover {
+    color: $primary;
   }
 }
