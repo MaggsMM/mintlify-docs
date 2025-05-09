@@ -4,8 +4,8 @@
   "name": "Agrokora",
   "colors": {
     "primary": "#1d3831",
-    "light": "#1d3831",
-    "dark": "#f9f4fe"
+    "light": "#f9f4fe",
+    "dark": "#1d3831"
   },
   "favicon": "/favicon.png",
   "navigation": {
