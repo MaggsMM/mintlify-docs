@@ -9,27 +9,27 @@
 nav button, 
 nav a[role="button"],
 .ul\.flex\.space-x-6\.items-center { // Escaped class selector
-  color: #FFFFFF;
+   color: #d5e6c8 !important;
   
   &:hover {
-    color: #E6F3EB;
+    color: #ffff;
     background-color: rgba(255, 255, 255, 0.1);
   }
 }
 a.active, 
 .active[href] {
-  border-bottom: 2px solid #E6F3EB !important;
+  border-bottom: 2px solid #d5e6c8 !important;
 }
 .text-gray-800,
 a.link,
 a[class*="nav-tabs-item"] {
-  color: #FFFFFF !important; // Force white text
+  color: #d5e6c8 !important;
   
   &:hover {
-    color: #E6F3EB !important;
+    color: #ffff !important;
   }
   
   &.active {
-    border-bottom: 2px solid #E6F3EB;
+    border-bottom: 2px solid #d5e6c8;
   }
 }
