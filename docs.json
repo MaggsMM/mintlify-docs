@@ -103,8 +103,8 @@
     }
   },
   "logo": {
-    "light": "/Logo horiz light.svg",
-    "dark": "/Logo horiz dark.svg"
+    "light": "/Logo horiz dark.svg",
+    "dark": "/Logo horiz light.svg"
   },
   "navbar": {
     "links": [
