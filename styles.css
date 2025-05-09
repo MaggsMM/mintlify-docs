@@ -5,3 +5,21 @@
 .h-7 {
     height: 3.75rem;
 }
+
+// Contact Us button styling
+.flex.space-x-6.items-center {
+  // Text styling
+  color: #FFFFFF; // AAA compliant white text
+  
+  // Hover state
+  &:hover {
+    background-color: lighten(#1c362f, 10%);
+    color: #E6F3EB; // Light mint green for hover text
+  }
+
+  // Focus state for accessibility
+  &:focus {
+    outline: 2px solid #FFFFFF;
+    outline-offset: 2px;
+  }
+}
