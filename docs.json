@@ -50,6 +50,41 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Solutions",
+        "languages": [
+          {
+            "language": "en",
+            "groups": [
+              {
+                "group": "Farming",
+                "pages": [
+                  "en/welcome",
+                  "en/quickstart"
+                ]
+              }
+            ]
+          },
+          {
+            "language": "es",
+            "groups": [
+              {
+                "group": "Empieza a medir",
+                "pages": [
+                  "es/index",
+                  "es/quickstart"
+                ]
+              },
+              {
+                "group": "Essentials",
+                "pages": [
+                  "es/essentials/markdown"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "global": {
