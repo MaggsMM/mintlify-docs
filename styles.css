@@ -24,3 +24,30 @@
     outline-offset: 2px;
   }
 }
+
+// Navigation tab item styling
+.link.nav-tabs-item {
+  color: #ffff; // Current color shown in the image
+  
+  // Change to your preferred color
+  &:hover {
+    color: #E6F3EB; 
+  }
+  
+  // Active state
+  &.active {
+    color: #ffff;
+    border-bottom: 2px solid #E6F3EB;
+  }
+  
+  // Custom text-gray-800 override
+  &.text-gray-800 {
+    // Default state
+    color: rgba(255, 255, 255, 0.8); // Light text on dark background
+    
+    // Dark mode
+    &.dark {
+      color: #ffff; // Dark green with opacity
+    }
+  }
+}
