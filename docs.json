@@ -7,7 +7,7 @@
     "light": "#f9f4fe",
     "dark": "#1d3831"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/Imagotype dark.svg",
   "navigation": {
     "tabs": [
       {
@@ -68,8 +68,8 @@
     }
   },
   "logo": {
-    "light": "/light1.png",
-    "dark": "/logo/dark.svg"
+    "light": "/Logo horiz light.svg",
+    "dark": "/Logo horiz dark.svg"
   },
   "navbar": {
     "links": [
