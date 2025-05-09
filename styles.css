@@ -20,7 +20,7 @@ a.active,
 .active[href] {
   border-bottom: 2px solid #E6F3EB !important;
 }
-.dark\:text-gray-800,
+.text-gray-800,
 a.link,
 a[class*="nav-tabs-item"] {
   color: #FFFFFF !important; // Force white text
